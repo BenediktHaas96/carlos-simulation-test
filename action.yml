@@ -1,5 +1,8 @@
 name: "carlos-simulation-testing"
 description: "Deploys a customizable, dockerized simulation environment to execute and evaluate OpenSCENARIO files"
+branding:
+  icon: "check-circle"
+  color: "gray-dark"
 
 inputs:
   composefile-path:

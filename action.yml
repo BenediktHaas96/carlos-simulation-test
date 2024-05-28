@@ -75,7 +75,7 @@ runs:
 
     - name: Wait for environment startup
       shell: bash
-      run: sleep ${{ inputs.startup-delaysecs }}s
+      run: sleep ${{ input.sim-startup-delaysecs }}s
 
     - name: Prepare scenario runner Composefile
       shell: bash
